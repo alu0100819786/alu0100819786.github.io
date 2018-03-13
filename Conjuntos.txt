@@ -1,0 +1,53 @@
+Práctica 6 (2017-2018). Ejercicio (Martes)
+
+En este ejercicio se creará una clase Conjunto que permitirá trabajar con conjuntos de números naturales (de {N}, enteros sin signo). Se implementarán progresivamente las diferentes operaciones del álgebra de conjuntos: unión, intersección, etc.
+
+Para cada ejercicio, desarrolle también los tests unitarios adecuados para comprobar todas las funcionalidades que implemente en estos ejercicios.
+
+
+1.- Comience a implementar la clase Conjunto.java incluyendo tres constructores: 
+
+    El primero de ellos creará un conjunto vacío.
+    Al segundo constructor se le pasará como parámetro un vector de enteros. Este constructor construirá un conjunto al que pertenecerán todos los números que se le han pasado en el vector. 
+    Al tercer constructor se le pasará como parámetro un nombre de fichero. El constructor leerá del fichero de texto los números que pertenecerán al conjunto que se crea.
+
+Desarrolle también un programa cliente de la clase Conjunto (UsaConjunto.java) que contenga una función main y que permita comprobar el funcionamiento de los diferentes métodos que se irán incorporando a la clase Conjunto.
+
+
+2.- Implemente en la clase Conjunto los siguientes métodos e incluya en UsaConjunto.java código que permita
+
+comprobar la correcta funcionalidad de todos los métodos.
+
+    2.1 int cardinal() - Devolverá el número de elementos en el conjunto.
+    2.2 toString() - Permitirá imprimir en pantalla un conjunto
+    2.3 boolean esVacio() - Indicará si el conjunto es vacío.
+    Pruebe los tres métodos anteriores con un par de conjuntos que haya creado; uno vacío y otro no.
+    2.4 boolean perteneceElemento() - Indicará si un determinado elemento pertenece al conjunto.
+    Pruebe el método con un caso en el que devuelva true y otro en que devuelva false.
+
+
+3.- Implemente los siguientes métodos e incluya en UsaConjunto.java código que permita comprobar la correcta funcionalidad de todos los métodos.
+
+    3.1 add() - Añade un determinado elemento al conjunto
+
+    Pruebe el método añadiendo un elemento y comprobando a continuación que el mismo está en el conjunto. Añada también un elemento a un conjunto en el que el elemento añadido ya pertenecía.
+
+    3.2 eliminar() - Elimina un determinado elemento del conjunto
+
+    Pruebe el método eliminando elementos que sí/no están presentes en el conjunto considerado
+
+    3.3 union() - Unión de dos conjuntos
+
+    3.4 interseccion() - Intersección de dos conjuntos
+
+
+4.- Implemente los siguientes métodos e incluya en UsaConjunto.java código que permita comprobar la correcta funcionalidad de todos los métodos.
+
+    4.1 borrar() - Elimina todos los elementos del conjunto
+
+    4.2 equals() - Permite comparar dos conjuntos y determina si son iguales
+
+    4.3 toArray() - Devuelve un vector que contiene todos los elementos que pertenecen al conjunto
+
+
+5.- Modifique su implementación de modo que el conjunto almacene elementos de tipo genérico (en lugar de enteros positivos).

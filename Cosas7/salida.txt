@@ -1,0 +1,2 @@
+Esfera Amarilla <1,1,1,radio 5.0> area: 314,16 volumen: 523,60
+Esfera Roja <2,-2,2,radio 10.0> area: 1256,64 volumen: 4188,79

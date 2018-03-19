@@ -1,0 +1,2 @@
+Esfera Amarilla 1 1 1 5
+Esfera Roja 2 -2 2 10
